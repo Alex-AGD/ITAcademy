@@ -25,7 +25,7 @@ public class ImportObject {
         System.out.println(planetThree.getName());
         System.out.println(planetThree.getAtmosphere());
 
-
+printEven.equals(planetThree);
     }
 
 
