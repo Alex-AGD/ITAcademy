@@ -16,9 +16,7 @@ public class Task18 {
             symbol = str.charAt(i);
             if (symbol == '.')
                 c++;
-
         }
         System.out.println("We have " + n + " commas " + c + " dots");
-
     }
 }
