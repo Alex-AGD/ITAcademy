@@ -1,5 +1,5 @@
 package com.HomeLesson;
-
+//
 public class Butterfly {
     public static void main(String[] args) {
         int[][] arr = new int[5][5];
@@ -24,11 +24,11 @@ public class Butterfly {
             for (j = 0; j < arr[i].length; j++) {
                 System.out.print(arr[i][j]);
             }
-            System.out.println(" "); //
+            System.out.println(" ");
         }
     }
 
-
+//
 }
 //System.out.println(Arrays.deepToString(butter_fly ));
 
