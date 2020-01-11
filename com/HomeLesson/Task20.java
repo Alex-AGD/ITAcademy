@@ -2,7 +2,7 @@ package com.HomeLesson;
 
 public class Task20 {
     public static void main(String[] args) {
-        String str = "Tesh strine, witl several, charactero and commas";
+        String str = "Test string, with sev, char and commas";
         str = str.replaceAll("[.,:;-]", "");
         String[] words = str.split(" ");
 
