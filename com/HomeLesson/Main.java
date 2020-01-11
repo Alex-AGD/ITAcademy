@@ -1,4 +1,4 @@
-package com.ITAcad;
+package com.HomeLesson;
 
 public class Main {
 

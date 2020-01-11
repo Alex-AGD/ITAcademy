@@ -2,7 +2,7 @@ package taskImport;
 
 import com.HomeLesson.Operations;
 import com.HomeLesson.Planet;
-import com.ITAcad.Main;
+import com.HomeLesson.Main;
 
 public class ImportObject {
 

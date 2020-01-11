@@ -1,4 +1,4 @@
-package com.ITAcad;
+package com.HomeLesson;
 
 public class sort {
 
@@ -10,7 +10,6 @@ public class sort {
         for (int i = 0; i < array.length; i++) {
             int minIndex = i;
             for (int j = i + 1; j < array.length; j++) {
-                ;
                 if (array[j] < array[minIndex]) {
                     minIndex = j;
                 }

@@ -1,7 +1,5 @@
 package com.HomeLesson;
 
-import java.util.Scanner;
-
 public class Task19 {
     public static void main(String[] args) {
         String str = "Test string, with several, characters and commas.";

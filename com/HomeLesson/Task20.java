@@ -2,17 +2,15 @@ package com.HomeLesson;
 
 public class Task20 {
     public static void main(String[] args) {
-        String str = "Test string, with several, characters and commas";
-
+        String str = "Tesh strine, witl several, charactero and commas";
         str = str.replaceAll("[.,:;-]", "");
-
         String[] words = str.split(" ");
-        StringBuilder newStr = new StringBuilder();
 
-        for(String word : words) {
-            newStr.append(word.charAt(word.length()-1));
+        StringBuilder newStr = new StringBuilder();
+        for (String word : words) {
+            newStr.append(word.charAt(word.length() - 1));
         }
 
-        System.out.println(newStr);
+        System.out.print(newStr);
     }
 }
