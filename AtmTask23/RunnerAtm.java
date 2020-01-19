@@ -1,4 +1,4 @@
-package AtnTask23;
+package AtmTask23;
 
 import java.util.Scanner;
 

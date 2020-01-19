@@ -1,4 +1,4 @@
-package AtnTask23;
+package AtmTask23;
 
 public class Atm {
     private int money20;
