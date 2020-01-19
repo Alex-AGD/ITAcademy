@@ -64,12 +64,12 @@ public class Atm {
     }
 
     public boolean getMoney(int sum) {
-        int getSum = getMoney20() + getMoney50()  + getMoney100();
+        int getSum = getMoney20() * 20 + getMoney50() * 50 + getMoney100() * 100;
         if (getSum < sum) {
             System.out.println("Not enough money at the ATM");
             return false;
         } else {
-            if (sum % 20 != 0) {
+            if (sum % 10 != 0) {
                 System.out.println("Choose a different amount, " +
                         "at the ATM only banknotes in denominations of 20, 50, 100");
                 return false;
