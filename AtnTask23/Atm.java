@@ -1,4 +1,4 @@
-package Encapsulation;
+package AtnTask23;
 
 public class Atm {
     private int money20;

@@ -1,4 +1,4 @@
-package Encapsulation;
+package AtnTask23;
 
 import java.util.Scanner;
 
