@@ -20,7 +20,7 @@ public class ImportObject {
 
         System.out.print("\n");  // перевод на новую строку
 
-        Planet planetThree = new Planet("", true, 6, 6, 5);
+        Planet planetThree = new Planet();
         planetThree.setName("Avrora");
         System.out.println(planetThree.getName());
         System.out.println(planetThree.getAtmosphere());

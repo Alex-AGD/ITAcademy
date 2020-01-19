@@ -1,11 +1,11 @@
 package com.HomeLesson;
 
-public class Runner {
+public class RunnerOperatoins {
     public static void main(String[] args) {
         //Task 1
         {
             Operations printEven = new Operations();
-            printEven.printEven(8);
+            printEven.printEven(15);
             System.out.println();
         }
         //Task 2
@@ -30,7 +30,7 @@ public class Runner {
         //Task 5
         {
             Operations printMon = new Operations();
-            printMon.printMon(2);
+            printMon.printMon(13);
             System.out.println();
         }
 

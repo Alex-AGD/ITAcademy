@@ -15,17 +15,19 @@ public class Task19 {
         }
         System.out.println("Вы ввели "+count+" слов");
     }*/
-    String str = " Test string, with sev, char and commas dfg";
-    str = str.replaceAll("[.,:;-]", "");
-    str =str.trim();
-    String[] words = str.split(" ");
-
+        String str = " Test string, with sev, char and commas dfg";
+        str = str.replaceAll("[.,:;-]", "");
+        str = str.trim();
+        String[] words = str.split(" ");
 
 
         StringBuilder newStr = new StringBuilder();
         for (String word : words) {
-        newStr.append(word.length());
+            newStr.append(word.length());
             System.out.print(newStr.length());
 
-}}}
+
+        }
+    }
+}
 

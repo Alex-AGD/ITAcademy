@@ -9,8 +9,7 @@ public class Planet {
     int numSputnik;
 
 
-    public Planet(String name, boolean atmosphere, int numSputnik, double speedPlanet,
-                  float rotationPeriod) {
+    public Planet() {
         this.name = name;
         this.atmosphere = atmosphere;
         this.numSputnik = numSputnik;
