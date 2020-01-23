@@ -5,8 +5,7 @@ public class SolarSystem {
     public static void main(String[] args) {
 
         {
-            Planet planet = new Planet("", true, 2,
-                    1808000, 24);
+            Planet planet = new Planet();
             planet.setName("Earth");
             boolean atmosphere = planet.getAtmosphere();
             int planetNumSputnik = planet.getNumSputnik();
@@ -32,8 +31,7 @@ public class SolarSystem {
             }
             System.out.println();
 
-            Planet planetTwo = new Planet("", true, 2,
-                    56673, 56);
+            Planet planetTwo = new Planet();
 
             planetTwo.setName("Mars");
             planetTwo.setAtmosphere(false);
@@ -115,7 +113,6 @@ public class SolarSystem {
         }
     }
 }
-
 
 
 

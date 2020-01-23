@@ -4,20 +4,28 @@ public class Runner {
 
     public static void main(String[] args) {
 
-        String str1 = "abc";
-        String str2 = "abc";
-
-        String str3 = new String(("abc"));
 
 
-        System.out.println(str1 == str2);
-        System.out.println(str1 == str3);
-                                                //str3 = str3.intern();
 
-        System.out.println(str1.equals(str3));
-        System.out.println(str2.compareTo(str1));
+        Penguin penguin = new Penguin("");
+        Duck duck = new Duck("");
+        Ostrich ostrich = new Ostrich("");
+
+        System.out.println(penguin.move());
+        System.out.println(duck.getName());
+        System.out.println(ostrich.name);
+        ostrich.setName("dfg");
+        penguin.setName("Pupkin");
 
 
+        printMove(duck);
+        printMove(ostrich);
+        printMove(penguin);
+
+    }
+
+    public static void printMove(Bird bird) {
+        System.out.print(bird.move());
 
     }
 }
