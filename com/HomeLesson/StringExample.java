@@ -1,6 +1,6 @@
 package com.HomeLesson;
 
-public class App_1_12_string {
+public class StringExample {
 
     public static void main(String[] args) {
 //        System.out.println(invert("Hello"));
