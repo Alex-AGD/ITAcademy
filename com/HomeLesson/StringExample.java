@@ -3,7 +3,7 @@ package com.HomeLesson;
 public class StringExample {
 
     public static void main(String[] args) {
-//        System.out.println(invert("Hello"));
+         System.out.println(invert("Hello"));
         System.out.println("hello" != new String("hello"));
         System.out.println("hello".equals(new String("hello")));
         System.out.println("hello" == "hello");
