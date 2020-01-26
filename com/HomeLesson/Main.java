@@ -2,7 +2,7 @@ package com.HomeLesson;
 
 public class Main {
 
-    public void test(int fib) {
+    /*public void test(int fib) {
 
     }
 
@@ -15,7 +15,7 @@ public class Main {
             fib = a + b;
             a = b;
             b = fib;
-            System.out.print(fib + " ");
+            System.out.print(fib + " ");*/
 
 
         }
