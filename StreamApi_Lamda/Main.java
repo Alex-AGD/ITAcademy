@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.function.*;
 
 public class Main {
-
+ ///// Функциональные интерфесы!!!
     public static void main(String[] args) {
 
 
