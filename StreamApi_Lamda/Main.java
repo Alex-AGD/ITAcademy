@@ -17,7 +17,7 @@ public class Main {
 
         System.out.println(operation.getResult(2.0, 2.0));
 
-        Operation lambda = ((value1, value2) -> value1 + value2);  //lamda выражение
+        Operation lambda = ((value1, value2) -> value1 + value2);//lamda выражение
         System.out.println(lambda.getResult(3.0, 3.0));
 
         Printer printer = string -> System.out.println(string); // однострочное lamda выраж
