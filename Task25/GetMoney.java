@@ -4,3 +4,4 @@ public interface GetMoney {
      void GetCash();
 
 }
+//
