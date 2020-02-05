@@ -26,16 +26,17 @@ public class FreqDict {
         String[] textTwo = text.split("[\\s,.\\-!?]+");
         System.out.println(Arrays.toString(textTwo));
 
-      ArrayList<String> list = new ArrayList<String>(Arrays.asList(textTwo));
+        ArrayList<String> list = new ArrayList<>(Arrays.asList(textTwo)); //aslist метод предст наш масив текст в виде списка
         Map<String, Integer> map = countWords(list);
         for (Map.Entry<String, Integer> pair : map.entrySet()) {
             System.out.println(pair.getKey() + " " + pair.getValue());
         }
     }
+
     public static Map<String, Integer> countWords(ArrayList<String> list) {
-        HashMap<String, Integer> result = new HashMap<String, Integer>();
-      for (String word : list) {
-           result.put(word, result.containsKey(word) ? result.get(word) + 1 : 1);
+        HashMap<String, Integer> result = new HashMap<>();
+        for (String word : list) {
+            result.put(word, result.containsKey(word) ? result.get(word) + 1 : 1); //this sting breaks my brains :|
         }
         return result;
     }

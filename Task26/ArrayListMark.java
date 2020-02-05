@@ -7,7 +7,7 @@ public class ArrayListMark {
         int positive = 10;
         int negative = 3;
 
-        ArrayList<Integer> value = new ArrayList<Integer>();
+        ArrayList<Integer> value = new ArrayList<>();
         for (int i = 0; i < positive; i++) {
             value.add(i, (int) (Math.random() * 10 + 1));
         }
