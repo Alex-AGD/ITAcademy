@@ -7,7 +7,6 @@ public class Main {
  ///// Функциональные интерфесы!!!
     public static void main(String[] args) {
 
-
         Operation operation = new Operation() {     //  <--- Исп внутренний anonym class
             @Override
             public double getResult(double value1, double value2) {
