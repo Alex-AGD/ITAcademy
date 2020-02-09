@@ -1,4 +1,4 @@
-package StreamTask_Home;
+package StreamTask_Home ;
 
 public class Person {
     private String name;
@@ -29,7 +29,7 @@ public class Person {
                 '}';
     }
 
-    public Person(String name, int age) {
+    public Person(String name, int age)  {
         this.name = name;
         this.age = age;
 
