@@ -3,7 +3,7 @@ package Task24;
 public class AppDescription extends StateSocket {
     private String name;
     private String type;
-
+//
 
     @Override
     public String toString() {

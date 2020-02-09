@@ -7,3 +7,4 @@ public interface PowerSocket {
 
     void printState();
 }
+//
