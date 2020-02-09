@@ -1,5 +1,6 @@
 package StreamApi_Lamda.StreamAp;
 
+import java.util.OptionalInt;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -17,6 +18,9 @@ public class Main {
                                                       //условие
         long count = IntStream.of(-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5).filter(w -> w > 0).count();
         System.out.println(count);
+
+        OptionalInt count1 = IntStream.of(-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5).filter(w -> w > 0).reduce((i, i1) -> i+i1);
+        System.out.println(count1);
 
 
         Stream<Integer> streamFromIterate = Stream.iterate(1, n -> n + 1);
