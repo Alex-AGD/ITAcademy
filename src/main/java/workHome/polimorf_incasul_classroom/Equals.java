@@ -6,20 +6,15 @@ public class Equals {
         Integer i = new Integer(1);
         Integer j = new Integer(1);
 
-        System.out.println(i==j);
+        System.out.println(i == j);
 
 
         Integer a = new Integer(1);
         Integer x = a;
-        System.out.println(a==x);
+        System.out.println(a == x);
 
 //Integer z = new Integer(null);
-Integer z =null;
-z.equals(z);
-
-
-
-
-
+        Integer z = null;
+        z.equals(z);
     }
 }

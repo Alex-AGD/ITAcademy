@@ -14,8 +14,7 @@ public class Main {
         }
 
         IntStream.of(-2, -1, 0, 1, 2).filter(value -> value < 0).forEach(System.out::println);
-        //промежуточн оперц        //терминальнальн оперц
-        //условие
+
         long count = IntStream.of(-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5).filter(w -> w > 0).count();
         System.out.println(count);
 
