@@ -21,6 +21,6 @@ public class Runner {
         }};
 
         List<String> names = cats.stream().map(cat -> cat.getName()).collect(Collectors.toList());
-
+        System.out.println(names);
     }
 }
