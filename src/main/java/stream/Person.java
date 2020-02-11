@@ -1,4 +1,4 @@
-package stream;
+package main.java.stream;
 
 public class Person {
     private String name;

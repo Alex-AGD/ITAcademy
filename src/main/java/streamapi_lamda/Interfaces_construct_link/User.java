@@ -1,4 +1,4 @@
-package streamapi_lamda.Interfaces_construct_link;
+package main.java.streamapi_lamda.Interfaces_construct_link;
 
 public class User {
 

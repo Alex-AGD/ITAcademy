@@ -1,4 +1,4 @@
-package polimorf_inheritance;
+package main.java.polimorf_inheritance;
 
 public class Jeneric<T,S,G> {
     private T name;

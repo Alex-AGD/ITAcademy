@@ -1,4 +1,4 @@
-package task29;
+package main.java.task29;
 
 import java.util.ArrayList;
 import java.util.Arrays;

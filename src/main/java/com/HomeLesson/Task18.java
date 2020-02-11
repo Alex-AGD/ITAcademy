@@ -1,4 +1,4 @@
-package com.HomeLesson;
+package main.java.com.HomeLesson;
 
 public class Task18 {
     public static void main(String[] args) {

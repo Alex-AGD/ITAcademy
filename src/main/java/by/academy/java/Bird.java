@@ -1,4 +1,4 @@
-package by.academy.java;
+package main.java.by.academy.java;
 
 public abstract class Bird {
     public abstract String move();

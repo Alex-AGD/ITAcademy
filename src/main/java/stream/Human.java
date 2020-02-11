@@ -1,4 +1,4 @@
-package stream;
+package main.java.stream;
 
 public class Human implements Comparable<Human> {
     private String name;

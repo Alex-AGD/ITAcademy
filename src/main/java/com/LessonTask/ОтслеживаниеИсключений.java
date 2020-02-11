@@ -1,4 +1,4 @@
-package com.LessonTask;
+package main.java.com.LessonTask;
 
 public class ОтслеживаниеИсключений {
 

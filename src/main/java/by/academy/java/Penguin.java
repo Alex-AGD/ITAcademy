@@ -1,4 +1,4 @@
-package by.academy.java;
+package main.java.by.academy.java;
 
 public class Penguin extends Bird {
     public Penguin(String name) {

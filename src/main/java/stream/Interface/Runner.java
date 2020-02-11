@@ -1,4 +1,4 @@
-package stream.Interface;
+package main.java.stream.Interface;
 
 public class Runner {
     public static void main(String[] args) {

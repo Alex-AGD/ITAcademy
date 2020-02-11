@@ -1,4 +1,4 @@
-package stackHeap;
+package main.java.stackHeap;
 
 import java.util.Arrays;
 

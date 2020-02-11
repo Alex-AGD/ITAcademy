@@ -1,4 +1,4 @@
-package polimorf_inheritance;
+package main.java.polimorf_inheritance;
 
 public class SportsMan  extends Child{
 

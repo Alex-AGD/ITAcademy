@@ -1,4 +1,4 @@
-package timeTask22;
+package main.java.timeTask22;
 
 import java.util.Objects;
 

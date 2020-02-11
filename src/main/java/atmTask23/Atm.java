@@ -1,13 +1,13 @@
-package atmTask23;
+package main.java.atmTask23;
 
 public class Atm {
     private int money20;
     private int money50;
     private int money100;
 
-    private final static String MONEY20 = "money20";
-    private final static String MONEY50 = "money50";
-    private final static String MONEY100 = "money100";
+     final static String MONEY20 = "money20";
+     final static String MONEY50 = "money50";
+    final static String MONEY100 = "money100";
 
 
     public Atm(int money20, int money50, int money100) {

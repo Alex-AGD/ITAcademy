@@ -1,4 +1,4 @@
-package com.LessonTask;
+package main.java.com.LessonTask;
 
 import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
 

@@ -1,4 +1,4 @@
-package task25;
+package main.java.task25;
 
 public class RunnerCard {
 

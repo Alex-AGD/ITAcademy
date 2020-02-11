@@ -1,4 +1,4 @@
-package task25;
+package main.java.task25;
 
 public interface GetMoney {
     void getCash();

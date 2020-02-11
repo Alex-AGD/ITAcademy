@@ -1,4 +1,4 @@
-package stackHeap;
+package main.java.stackHeap;
 
 public class StackOverflow_recurs {
     public static void main(String[] args) {

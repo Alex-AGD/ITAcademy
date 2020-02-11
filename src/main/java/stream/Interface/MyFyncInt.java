@@ -1,4 +1,4 @@
-package stream.Interface;
+package main.java.stream.Interface;
 
 @FunctionalInterface
 public interface MyFyncInt<T> {

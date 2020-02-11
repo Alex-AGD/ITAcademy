@@ -1,4 +1,4 @@
-package com.HomeLesson;
+package main.java.com.HomeLesson;
 
 public class RunnerOperatoins {
     public static void main(String[] args) {

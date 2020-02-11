@@ -1,4 +1,4 @@
-package task28;
+package main.java.task28;
 
 import java.util.ArrayList;
 import java.util.Collections;

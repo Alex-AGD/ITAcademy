@@ -1,4 +1,4 @@
-package task24;
+package main.java.task24;
 
 public class AppDescription extends StateSocket {
     private String name;

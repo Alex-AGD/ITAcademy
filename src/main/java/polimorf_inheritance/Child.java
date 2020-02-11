@@ -1,4 +1,4 @@
-package polimorf_inheritance;
+package main.java.polimorf_inheritance;
 
 public abstract class Child extends Human {
     private String name;
