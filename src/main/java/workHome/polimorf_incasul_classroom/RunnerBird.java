@@ -19,7 +19,6 @@ public class RunnerBird {
         System.out.println(duck.name + " " + duck.move());
         System.out.println(ostrich + " " + ostrich.move());
 
-        ;
         printMove(duck);
         printMove(ostrich);
         printMove(penguin);

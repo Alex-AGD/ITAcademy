@@ -12,44 +12,43 @@ public class Operations {
     }
 
     //Task 2
-    void numNearTen(float m, float n) {
-        float res1 = 10 - m;
-        float res2 = n - 10;
+    void numNearTen() {
+        float res1 = 10 - (float) 8.5;
+        float res2 = (float) 11.45 - 10;
         System.out.println("m = " + res1 + " " + "n = " + res2);
         if (res1 > res2) {
-            System.out.println(n + " > 10");
+            System.out.println((float) 11.45 + " > 10");
         } else {
-            System.out.println(m + " > 10");
+            System.out.println((float) 8.5 + " > 10");
         }
     }
 
 
     //Task 3
-    void printMoreZero(int num) {
-        if (num > 0) {
+    void printMoreZero() {
+        if (2 > 0) {
             System.out.println("number > 0");
         }
-        if (num < 0) {
+        if (2 < 0) {
             System.out.println("number < 0");
         }
-        if (num == 0) {
+        if (2 == 0) {
             System.out.println("number = 0");
         }
     }
 
 
     //Task 4
-    void printVarZero(int q, int w) {
-        if (q > 0 && w > 0) {
-            System.out.println(q + " > 0");
-            System.out.println(w + " > 0");
+    void printVarZero() {
+        if (3 > 0 && 5 > 0) {
+            System.out.println(3 + " > 0");
+            System.out.println(5 + " > 0");
         }
     }
 
     //Task 5
-    void printMon(int m) {
-        int Month = m;      //int value
-        switch (Month) {
+    void printMon() {
+        switch (13) {
             case 1:
                 System.out.println("January");
                 break;

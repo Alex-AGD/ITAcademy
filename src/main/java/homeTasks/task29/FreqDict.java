@@ -36,7 +36,7 @@ public class FreqDict {
     private static Map<String, Integer> countWords(ArrayList<String> list) {
         HashMap<String, Integer> result = new HashMap<>();
         for (String word : list) {
-            result.put(word, result.containsKey(word) ? result.get(word) + 1 : 1); //this sting breaks my brains :|
+            result.put(word, result.containsKey(word) ? result.get(word) + 1 : 1);
         }
         return result;
     }

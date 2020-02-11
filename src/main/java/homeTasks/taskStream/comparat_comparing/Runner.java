@@ -34,6 +34,7 @@ public class Runner {
             System.out.println("------------------------");
 
             persons.stream().sorted(byAge.thenComparing(byName)).forEach(System.out::println);
+            //noinspection unchecked
             List<Person> names = (List<Person>) persons.stream().collect(Collectors.toSet());
 
 

@@ -1,7 +1,7 @@
 package main.java.lessonsYouTube;
 
-import java.awt.*;
 import javax.swing.*;
+import java.awt.*;
 
 public class УсловныеОператоры extends JFrame {
     private int voron = 0;

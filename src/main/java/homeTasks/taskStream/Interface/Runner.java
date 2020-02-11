@@ -9,5 +9,5 @@ public class Runner {
         System.out.println(two.getResult(5,6,2));
 
             }
-    };
+    }
 

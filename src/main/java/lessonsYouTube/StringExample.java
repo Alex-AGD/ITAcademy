@@ -4,8 +4,8 @@ public class StringExample {
 
     public static void main(String[] args) {
          System.out.println(invert("Hello"));
-        System.out.println("hello" != new String("hello"));
-        System.out.println("hello".equals(new String("hello")));
+        System.out.println("hello" != "hello");
+        System.out.println("hello".equals("hello"));
         System.out.println("hello" == "hello");
 
         "hello".equals("other");
@@ -24,7 +24,7 @@ public class StringExample {
         String ascs = "abcb".replaceAll  ("b", "s");
         String ABC  = "aBc".toUpperCase();
         String abc  = "AbC".toLowerCase();
-        String ref  = "abc".intern(); //add to pool if not exist
+        String ref  = "abc"; //add to pool if not exist
 
         String[] letters       = "a b c".split(" ");
         String[] lettersRegex  = "a   b c".split("\\s+");

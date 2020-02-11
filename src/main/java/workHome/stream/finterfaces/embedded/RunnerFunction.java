@@ -10,7 +10,7 @@ public class RunnerFunction {
                 "    R apply(T t);\n" +
                 "}");
 
-        Function<Integer, String> convert = x -> String.valueOf(x) + " долларов";
+        Function<Integer, String> convert = x -> x + " долларов";
         System.out.println(convert.apply(5)); // 5 долларов
     }
 }
