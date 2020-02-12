@@ -23,7 +23,7 @@ public class ArrayPositive {
         System.out.println("Макс оценка " + Collections.max(mark));
 
         final List<Integer> ints = new ArrayList<>();
-        IntStream.range(0, 1000000)
+        IntStream.range(0, 1000)
                 .parallel()
                 .forEach(ints::add);
         System.out.println(ints.size());

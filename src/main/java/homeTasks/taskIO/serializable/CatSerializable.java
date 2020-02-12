@@ -4,7 +4,7 @@ import java.io.InputStream;
 import java.io.Serializable;
 
 public class CatSerializable implements Serializable {
-    private  String name;
+    private transient String name;
     private int age;
     private int weight;
 
@@ -23,7 +23,7 @@ public class CatSerializable implements Serializable {
         this.weight = weight;
     }
 
-    public  String getName(String кот) {
+    public  String getName(String name) {
         return name;
     }
 
@@ -48,14 +48,6 @@ public class CatSerializable implements Serializable {
     }
 
     transient public InputStream in = System.in; //не будет серелизоваться
-/*
-    @Override
-    public void writeExternal(ObjectOutput out) throws IOException {
-
-    }
-
-    @Override
-    public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {*/
 
 }
 
