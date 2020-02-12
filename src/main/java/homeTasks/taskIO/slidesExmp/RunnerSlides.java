@@ -41,7 +41,6 @@ public class RunnerSlides {
         System.out.println(q);
         reader4.close();
 
-
         BufferedReader reader3 = new BufferedReader(new FileReader("src/main/resources/InputStreamTxt2.dat"));
         String x = reader3.readLine();
         System.out.println(x);

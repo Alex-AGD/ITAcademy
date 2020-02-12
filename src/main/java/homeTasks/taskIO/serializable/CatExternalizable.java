@@ -4,6 +4,7 @@ import java.io.Externalizable;
 import java.io.IOException;
 import java.io.ObjectInput;
 import java.io.ObjectOutput;
+import java.util.Base64;
 
 public class CatExternalizable implements Externalizable {
     private String name;
@@ -11,15 +12,27 @@ public class CatExternalizable implements Externalizable {
     private String breed;
     private int age;
     private int tail;
-    private boolean vegan;
 
-    public CatExternalizable(String name, String secretName, String breed, int age, int tail, boolean vegan) {
+    public CatExternalizable() {              //constr default for Exter or only gets/setter
+    }
+
+    @Override
+    public String toString() {
+        return "CatExternalizable{" +
+                "name='" + name + '\'' +
+                ", secretName='" + secretName + '\'' +
+                ", breed='" + breed + '\'' +
+                ", age=" + age +
+                ", tail=" + tail +
+                '}';
+    }
+
+    public CatExternalizable(String name, String secretName, String breed, int age, int tail) {
         this.name = name;
         this.secretName = secretName;
         this.breed = breed;
         this.age = age;
         this.tail = tail;
-        this.vegan = vegan;
     }
 
     public String getName() {
@@ -62,21 +75,29 @@ public class CatExternalizable implements Externalizable {
         this.tail = tail;
     }
 
-    public boolean isVegan() {
-        return vegan;
-    }
-
-    public void setVegan(boolean vegan) {
-        this.vegan = vegan;
-    }
 
     @Override
     public void writeExternal(ObjectOutput out) throws IOException {
+        out.writeObject(this.getName());
+        out.writeObject(this.getSecretName());
+        out.writeObject(this.getBreed());
+        out.writeObject(this.getTail());
+        out.writeObject(this.getAge());
+
+        String ecrypteData = Base64.getEncoder().encodeToString(this.getSecretName().getBytes());
+        System.out.println(ecrypteData);
+        out.writeObject(ecrypteData);
 
     }
 
     @Override
     public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
+        name = (String) in.readObject();
+        secretName = (String) in.readObject();
+        breed = (String) in.readObject();
+        tail = (int) in.readObject();
+        age = (int) in.readObject();
 
+        secretName = new String(Base64.getDecoder().decode((String) in.readObject()));
     }
 }
