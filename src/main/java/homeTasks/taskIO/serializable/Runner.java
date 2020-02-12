@@ -8,7 +8,7 @@ public class Runner {
 
         //save cat to file сериализация
         CatSerializable catSerializable = new CatSerializable("Pop", 23, 13);
-        catSerializable.getName("Кот");
+        //catSerializable.setName("Кот");
         FileOutputStream fileOutput = new FileOutputStream("D:\\project\\ItAcademy\\src\\main\\resources\\cat.dat"); //запись данных в файл
         ObjectOutputStream outputStream = new ObjectOutputStream(fileOutput); //преобразует  обьект в байты
         outputStream.writeObject(catSerializable);
@@ -25,7 +25,7 @@ public class Runner {
 
         System.out.println(object);
 
-        CatSerializable newCatSerializable = (CatSerializable) object;
+        //CatSerializable newCatSerializable = (CatSerializable)object;
 
 
     }
