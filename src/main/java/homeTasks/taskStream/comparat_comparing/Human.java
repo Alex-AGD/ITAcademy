@@ -28,7 +28,7 @@ public class Human implements Comparable<Human> {
     @Override
     public int compareTo(Human h) {
         //return name.compareTo(h.getName());
-        return age.compareTo(h.getAge()); //почему то не прнимает примитивный тип int
+        return age.compareTo(h.getAge()); // <> в компрейбл...
         //return name.length()-h.getName().length(); //можем опр свою логику сравнения не полагаясь на внутр мех
     }
 
