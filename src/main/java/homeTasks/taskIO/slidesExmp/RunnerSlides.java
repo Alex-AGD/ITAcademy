@@ -1,20 +1,17 @@
 package main.java.homeTasks.taskIO.slidesExmp;
 
 import jdk.internal.util.xml.impl.ReaderUTF8;
-import main.java.workHome.stream.soundStream.Sound;
 
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.UnsupportedAudioFileException;
-import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
+import java.util.Scanner;
 
 public class RunnerSlides {
     public static void main(String[] args) throws IOException, UnsupportedAudioFileException, LineUnavailableException, InterruptedException {
 
 /*        { while (true) {
-                int x = System.in.read(); //read byte
+                int x = System.in.read(); // .in read byte
                 System.out.println(x); }}*/
 
 /*        { InputStreamReader reader = new InputStreamReader(System.in);
@@ -45,6 +42,10 @@ public class RunnerSlides {
         String x = reader3.readLine();
         System.out.println(x);
         reader3.close();
+
+
+
+
 
         /*        Scanner sc = new Scanner(System.in);
          *//*        System.out.println("Введите число: ");
@@ -83,7 +84,7 @@ public class RunnerSlides {
             System.out.println(s);
         }*/
 
-/*
+
         String dataPath = "D:\\project\\ItAcademy\\src\\main\\resources\\scanTxt.txt";
         Scanner s = null;
         try {s = new Scanner(new BufferedReader(new FileReader(dataPath)));
@@ -96,7 +97,7 @@ public class RunnerSlides {
             s.close();
         }
     }
-*/
+
 
 /*
         String input = "1 fish 2 fish red fish blue fish";
@@ -115,7 +116,7 @@ public class RunnerSlides {
         String s = o.readLine();
         char[] pass = o.readPassword();*/
 
-        Sound.playSound("src/main/resources/CampuchaMan.wav").join();
+  //      Sound.playSound("src/main/resources/CampuchaMan.wav").join();
     }
 }
 
