@@ -1,4 +1,4 @@
-package main.java.homeTasks.taskStream.Interface;
+package homeTasks.taskStream.Interface;
 
 public class Runner {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package main.java.homeTasks.task24;
+package homeTasks.task24;
 
 public interface PowerSocket {
     void on();

@@ -1,4 +1,4 @@
-package main.java.homeTasks.taskSolarSystem;
+package homeTasks.taskSolarSystem;
 
 public class SolarSystem {
 

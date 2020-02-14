@@ -1,4 +1,4 @@
-package main.java.workHome.ioStreams.charstream;
+package workHome.ioStreams.charstream;
 
 import java.io.FileReader;
 import java.io.FileWriter;

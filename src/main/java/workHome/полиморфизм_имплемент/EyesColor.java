@@ -1,4 +1,4 @@
-package main.java.workHome.полиморфизм_имплемент;
+package workHome.полиморфизм_имплемент;
 
 public interface EyesColor {
     void EyesColor(String eyes);

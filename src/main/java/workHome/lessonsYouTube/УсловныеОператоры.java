@@ -1,4 +1,4 @@
-package main.java.lessonsYouTube;
+package workHome.lessonsYouTube;
 
 import javax.swing.*;
 import java.awt.*;

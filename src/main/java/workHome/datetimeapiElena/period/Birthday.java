@@ -1,4 +1,4 @@
-package main.java.workHome.datetimeapiElena.period;
+package workHome.datetimeapiElena.period;
 
 import java.time.LocalDate;
 import java.time.Month;

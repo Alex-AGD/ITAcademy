@@ -1,4 +1,4 @@
-package main.java.workHome.stream.soundStream;
+package workHome.stream.soundStream;
 
 import javax.sound.sampled.*;
 import java.io.File;

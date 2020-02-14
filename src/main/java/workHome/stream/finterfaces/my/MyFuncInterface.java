@@ -1,4 +1,4 @@
-package main.java.workHome.stream.finterfaces.my;
+package workHome.stream.finterfaces.my;
 
 @FunctionalInterface
 public interface MyFuncInterface {

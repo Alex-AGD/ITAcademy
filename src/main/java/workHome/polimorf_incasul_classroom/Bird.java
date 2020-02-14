@@ -1,4 +1,4 @@
-package main.java.workHome.polimorf_incasul_classroom;
+package workHome.polimorf_incasul_classroom;
 
 public abstract class Bird {
     public abstract String move();

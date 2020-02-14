@@ -1,4 +1,4 @@
-package main.java.homeTasks.taskIO.serializable;
+package homeTasks.taskIO.serializable;
 
 import java.io.*;
 

@@ -1,4 +1,4 @@
-package main.java.homeTasks.task26;
+package homeTasks.task26;
 
 import java.util.ArrayList;
 

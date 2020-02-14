@@ -1,4 +1,4 @@
-package main.java.workHome.datetimeapiElena.local;
+package workHome.datetimeapiElena.local;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

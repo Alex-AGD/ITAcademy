@@ -1,4 +1,4 @@
-package main.java.homeTasks.task23;
+package homeTasks.task23;
 
 public class Atm {
     private int money20;

@@ -1,4 +1,4 @@
-package main.java.homeTasks.task24;
+package homeTasks.task24;
 
 public class StateSocket implements PowerSocket {
     boolean state = false;

@@ -1,4 +1,4 @@
-package main.java.lessonsYouTube;
+package workHome.lessonsYouTube;
 
 public class Обвертка {
 

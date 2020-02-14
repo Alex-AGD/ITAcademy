@@ -1,4 +1,4 @@
-package main.java.workHome.ioStreams.bytestream;
+package workHome.ioStreams.bytestream;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

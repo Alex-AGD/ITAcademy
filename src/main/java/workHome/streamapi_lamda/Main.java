@@ -1,4 +1,4 @@
-package main.java.workHome.streamapi_lamda;
+package workHome.streamapi_lamda;
 
 import java.util.Scanner;
 import java.util.function.*;

@@ -1,4 +1,4 @@
-package main.java.homeTasks.jvmExeption.jvmElena.task1;
+package homeTasks.jvmExeption.jvmElena.task1;
 
 public class Runner {
 

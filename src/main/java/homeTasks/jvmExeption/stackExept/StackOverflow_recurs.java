@@ -1,4 +1,4 @@
-package main.java.homeTasks.jvmExeption.stackExept;
+package homeTasks.jvmExeption.stackExept;
 
 public class StackOverflow_recurs {
     public static void main(String[] args) {

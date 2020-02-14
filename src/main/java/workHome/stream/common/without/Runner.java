@@ -1,7 +1,7 @@
-package main.java.workHome.stream.common.without;
+package workHome.stream.common.without;
 
 
-import main.java.workHome.stream.common.bean.Cat;
+import workHome.stream.common.bean.Cat;
 
 import java.util.ArrayList;
 import java.util.List;

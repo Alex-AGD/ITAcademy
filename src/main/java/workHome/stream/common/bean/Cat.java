@@ -1,4 +1,4 @@
-package main.java.workHome.stream.common.bean;
+package workHome.stream.common.bean;
 
 public class Cat {
 

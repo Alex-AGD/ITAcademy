@@ -1,4 +1,4 @@
-package main.java.workHome.ioStreams;
+package workHome.ioStreams;
 
 
 import java.io.*;

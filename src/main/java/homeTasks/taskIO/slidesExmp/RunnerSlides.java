@@ -1,10 +1,14 @@
-package main.java.homeTasks.taskIO.slidesExmp;
+package homeTasks.taskIO.slidesExmp;
 
 import jdk.internal.util.xml.impl.ReaderUTF8;
+import workHome.stream.soundStream.Sound;
 
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.UnsupportedAudioFileException;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class RunnerSlides {
@@ -116,7 +120,7 @@ public class RunnerSlides {
         String s = o.readLine();
         char[] pass = o.readPassword();*/
 
-  //      Sound.playSound("src/main/resources/CampuchaMan.wav").join();
+       Sound.playSound("src/main/resources/CampuchaMan.wav").join();
     }
 }
 

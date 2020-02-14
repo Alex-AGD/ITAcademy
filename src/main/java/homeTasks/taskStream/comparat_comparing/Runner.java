@@ -1,4 +1,4 @@
-package main.java.homeTasks.taskStream.comparat_comparing;
+package homeTasks.taskStream.comparat_comparing;
 
 import java.util.ArrayList;
 import java.util.Arrays;
