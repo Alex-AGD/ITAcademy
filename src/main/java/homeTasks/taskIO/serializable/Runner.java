@@ -8,15 +8,15 @@ public class Runner {
         //save cat to file сериализация
         CatSerializable catSerializable = new CatSerializable("Pop", 23, 13);
         FileOutputStream fileOutput = new FileOutputStream("D:\\project\\ItAcademy\\src\\main\\" +
-                "resources\\CatSerializable.dat"); //запись данных в файл
+                "resources\\catSerializable.dat"); //запись данных в файл
         ObjectOutputStream outputStream = new ObjectOutputStream(fileOutput); //преобразует  обьект в байты
         outputStream.writeObject(catSerializable);
         outputStream.close(); // по идее должен с ним и закрыться второй поток object
         //fileOutput.close();
-        System.out.println();
+        System.out.println(catSerializable);
 
         //load десериализация
-        FileInputStream fiStream = new FileInputStream("D:\\project\\ItAcademy\\src\\main\\resources\\CatSerializable.dat");
+        FileInputStream fiStream = new FileInputStream("D:\\project\\ItAcademy\\src\\main\\resources\\catSerializable.dat");
         ObjectInputStream objectStream = new ObjectInputStream(fiStream);
         Object object = objectStream.readObject();
         fiStream.close();
@@ -24,8 +24,9 @@ public class Runner {
         System.out.println(object);
 
 
-        CatExternalizable catOne = new CatExternalizable("Murzik", "Pssssik", "Siam", 14, 1);
-        CatExternalizable catTwo = new CatExternalizable("Vaska", "Khhh", "Dvorovi", 55, 2);
+
+        CatExternalize catOne = new CatExternalize("Murzik", "Pssssik", "Siam", 14, 1);
+        CatExternalize catTwo = new CatExternalize("Vaska", "Khhh", "Dvorovi", 55, 2);
         System.out.println("Before: \n" + catOne);
         System.out.println(catTwo);
 
@@ -37,12 +38,13 @@ public class Runner {
 
         ObjectInputStream in = new ObjectInputStream(new FileInputStream("D:\\project\\ItAcademy\\src\\" +
                 "main\\resources\\catExternal.dat"));
-        catOne = (CatExternalizable) in.readObject();
-        catTwo = (CatExternalizable) in.readObject();
+        catOne = (CatExternalize) in.readObject();
+        catTwo = (CatExternalize) in.readObject();
         in.close();
 
         System.out.println("After: \n" + catOne);
         System.out.println(catTwo);
+
 
     }
 }

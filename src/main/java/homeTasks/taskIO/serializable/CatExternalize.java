@@ -4,35 +4,34 @@ import java.io.Externalizable;
 import java.io.IOException;
 import java.io.ObjectInput;
 import java.io.ObjectOutput;
-import java.util.Base64;
 
-public class CatExternalizable implements Externalizable {
+public class CatExternalize implements Externalizable {
     private String name;
     private transient String secretName;
     private String breed;
     private int age;
     private int tail;
 
-    public CatExternalizable() {              //constr default for Exter or only gets/setter
+    public CatExternalize() {
+    }
+
+    public CatExternalize(String name, String secretName, String breed, int age, int tail) {
+        this.name = name;
+        this.secretName = secretName;
+        this.breed = breed;
+        this.age = age;
+        this.tail = tail;
     }
 
     @Override
     public String toString() {
-        return "CatExternalizable{" +
+        return "CatExternalize{" +
                 "name='" + name + '\'' +
                 ", secretName='" + secretName + '\'' +
                 ", breed='" + breed + '\'' +
                 ", age=" + age +
                 ", tail=" + tail +
                 '}';
-    }
-
-    public CatExternalizable(String name, String secretName, String breed, int age, int tail) {
-        this.name = name;
-        this.secretName = secretName;
-        this.breed = breed;
-        this.age = age;
-        this.tail = tail;
     }
 
     public String getName() {
@@ -78,15 +77,11 @@ public class CatExternalizable implements Externalizable {
 
     @Override
     public void writeExternal(ObjectOutput out) throws IOException {
-        out.writeObject(this.getName());
+         out.writeObject(this.getName());
         out.writeObject(this.getSecretName());
         out.writeObject(this.getBreed());
         out.writeObject(this.getTail());
         out.writeObject(this.getAge());
-
-        String ecrypteData = Base64.getEncoder().encodeToString(this.getSecretName().getBytes());
-        System.out.println(ecrypteData);
-        out.writeObject(ecrypteData);
 
     }
 
@@ -98,6 +93,5 @@ public class CatExternalizable implements Externalizable {
         tail = (int) in.readObject();
         age = (int) in.readObject();
 
-        secretName = new String(Base64.getDecoder().decode((String) in.readObject()));
     }
 }

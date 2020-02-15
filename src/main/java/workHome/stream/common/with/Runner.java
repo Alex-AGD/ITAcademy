@@ -20,7 +20,9 @@ public class Runner {
             add(new Cat("Ugalek", 5));
         }};
 
-        List<String> names = cats.stream().map(cat -> cat.getName()).collect(Collectors.toList());
+        List<String> names = cats.stream()
+                .map(cat -> cat.getName())
+                    .collect(Collectors.toList());
         System.out.println(names);
     }
 }

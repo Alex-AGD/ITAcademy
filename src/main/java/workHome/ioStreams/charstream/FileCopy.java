@@ -8,7 +8,7 @@ public class FileCopy {
 
     public static void main(String[] args) throws IOException {
 
-        try (FileReader fileReader = new FileReader("......\\example.txt");
+        try (FileReader fileReader = new FileReader("......\\textTask30.txt");
              FileWriter fileWriter = new FileWriter("......\\copied_example.txt")) {
 
             int a;

@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class Runner {
     public static void main(String[] args) throws IOException {
-        File f1 = new File("D:\\project\\ItAcademy\\src\\main\\resources\\newFile.txt");
+        File f1 = new File("D:\\project\\ItAcademy\\src\\main\\resources\\file.txt");
         if(!f1.exists()) {
             try {
                 f1.createNewFile();
