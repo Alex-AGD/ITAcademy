@@ -77,7 +77,7 @@ public class CatExternalize implements Externalizable {
 
     @Override
     public void writeExternal(ObjectOutput out) throws IOException {
-         out.writeObject(this.getName());
+        out.writeObject(this.getName());
         out.writeObject(this.getSecretName());
         out.writeObject(this.getBreed());
         out.writeObject(this.getTail());
