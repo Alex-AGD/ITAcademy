@@ -12,13 +12,13 @@ public class Main {
 
         System.out.println(operation.getResult(2.0, 2.0));
 
-        Operation lambda = (Double::sum);//lamda выражение
+        Operation lambda = ((a, b) -> Double.sum(a, b));//lamda выражение
         System.out.println(lambda.getResult(3.0, 3.0));
 
         Printer printer = System.out::println; // однострочное lamda выраж
         printer.println("Hello lamda");
 
-        OperatorWithJeneric<Integer> addition = (Integer::sum); // пример с дженериками
+        OperatorWithJeneric<Integer> addition = ((a, b) -> Integer.sum(a, b)); // пример с дженериками
         System.out.println(addition.getResult(2, 2));
 
         OperatorWithJeneric<String> concatenation = ((value1, value2) -> value1 + value2); // пример с дженериками
@@ -50,13 +50,13 @@ public class Main {
         BinaryOperator<Double> pow = Math::pow; //позволяет выполнять бинарные операции над T и U например степень
         System.out.println(pow.apply(2.0, 5.0));
 
-/*        Factorial factorial = value -> {
+        Factorial factorial = value -> {
             int result = 1;
             for (int i = 1; i <= value; i++) {
                 result *= i;
             }
             return result;
         };
-        System.out.println(factorial.getResult(5));*/
+        System.out.println(factorial.getResult(5));
     }
 }
