@@ -3,10 +3,11 @@ package main.java.workHome.multithreading;
 public class Runner {
     public static void main(String[] args) throws Exception {
 
-        Resource resource = new Resource(); //create obj resource
+        Resource resource = new Resource(); //create obj resource  //synchronized лочить obj
         resource.setI(5);
 
         ThreadRecourse threadRecourse = new ThreadRecourse();
+
         threadRecourse.setName("1fst thread");
         threadRecourse.setResource(resource); //1 thread use (resource) obj
         threadRecourse.start();
@@ -45,6 +46,7 @@ public class Runner {
 
         Runnable myRunnableTwo = new Runnable("Thread myRunnableTwo ");
         Thread threadTwo = new Thread(myRunnableTwo);
+        threadTwo.join();
         threadTwo.start();
         Thread.yield();
         Thread.sleep(2000);
@@ -56,6 +58,7 @@ public class Runner {
 
         new Runnable.MyThread("Thread static MyThreadOne ").start();
         Thread.sleep(2000);
+
 
         new Runnable.MyThread("Thread static MyThreadTwo ").start();
         Thread.yield(); //дает вероятность что поток  выполнится раньше
@@ -77,7 +80,7 @@ class Runnable implements java.lang.Runnable {
     public void run() {
         for (int i = 0; i < 3; i++) {
             try {
-                Thread.sleep(100);
+                Thread.sleep(3);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -94,8 +97,10 @@ class Runnable implements java.lang.Runnable {
 
         @Override
         public void run() {
-            for (int i = 0; i < 3; i++) {
-                System.out.printf("I'm %s\n", name + Thread.currentThread().getName() + " i = " + i);
+
+            Thread.yield();
+          synchronized (this) { for (int i = 0; i < 3; i++) {
+                System.out.printf("I'm %s\n", name + Thread.currentThread().getName() + " i = " + i);}
             }
         }
     }

@@ -10,6 +10,7 @@ public class ThreadRecourse extends Thread {
 
     @Override
     public void run() {
-        resource.changeI();
+        Resource.changeStaticI();
+        new Resource().changeI();
     }
 }
