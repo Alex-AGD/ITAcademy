@@ -1,4 +1,4 @@
-package main.java.homeTasks.taskMultithreading.Deadlock;
+package main.java.homeTasks.taskMultithreading.deadlock;
 
 public class Runner {
     public static void main(String[] args) {

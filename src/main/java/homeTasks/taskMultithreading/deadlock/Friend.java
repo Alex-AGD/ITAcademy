@@ -1,4 +1,4 @@
-package main.java.homeTasks.taskMultithreading.Deadlock;
+package main.java.homeTasks.taskMultithreading.deadlock;
 
 public class Friend {
     private final String name;
