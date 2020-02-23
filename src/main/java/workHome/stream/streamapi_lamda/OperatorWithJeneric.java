@@ -1,4 +1,4 @@
-package main.java.workHome.streamapi_lamda;
+package main.java.workHome.stream.streamapi_lamda;
 
 public interface OperatorWithJeneric<T> { //использ дженерик если мы не знаем какой тип данным нам может потреоваться.
     T getResult(T value1, T value2);
