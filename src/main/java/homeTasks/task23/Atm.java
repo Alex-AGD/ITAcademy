@@ -1,5 +1,7 @@
 package main.java.homeTasks.task23;
 
+import java.util.Scanner;
+
 public class Atm {
     private int money20;
     private int money50;
@@ -84,5 +86,31 @@ public class Atm {
             }
             return true;
         }
+
     }
+public void rett(){
+    Scanner in = new Scanner(System.in);
+    System.out.println("Do  you want add money to an ATM? (y/n) ?");
+    switch (in.nextLine()) {
+        case "y":
+            System.out.println("Enter the amount of money with a value of 20 to the ATM: ");
+            addMoney(Atm.MONEY20, in.nextInt());
+            System.out.println("Enter the amount of money with a value of 50 to the ATM: ");
+            addMoney(Atm.MONEY50, in.nextInt());
+            System.out.println("Enter the amount of money with a value of 100 to the ATM: ");
+            addMoney(Atm.MONEY100, in.nextInt());
+            System.out.println("Money added! Thank you.");
+            System.out.println(toString());
+            System.out.println("Please enter amount you want to receive: ");
+            System.out.println(getMoney(in.nextInt()));
+            System.out.println(toString());
+
+            break;
+        case "n":
+            System.out.println("Good bye!");
+            break;
+        default:
+            System.out.println("Incorrect input please choose (y/n)");
+            rett();
 }
+}}
