@@ -1,4 +1,4 @@
-package main.java.homeTasks.task30;
+package homeTasks.task30;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -6,7 +6,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Runner {
-
 
     public static void main(String[] args) throws IOException {
 
