@@ -1,4 +1,4 @@
-package main.java.task32;
+package homeTasks.task32;
 
 import java.io.*;
 import java.util.ArrayList;
