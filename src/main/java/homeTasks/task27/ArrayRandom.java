@@ -9,10 +9,11 @@ public class ArrayRandom {
         int a = 20;
         ArrayList<Integer> value = new ArrayList<>();
         for (int i = 0; i < a; i++) {
-            value.add(i, (int) (Math.random() * 20 + 1));
-            Set<Integer> valNtDbl = new HashSet<>(value);
-            System.out.println(valNtDbl);
+            value.add(i, (int) (Math.random() * 20 + 1));}
+            Set<Integer> values = new HashSet<>(value);
+
+            System.out.println(values);
 
         }
-    }
+
 }
