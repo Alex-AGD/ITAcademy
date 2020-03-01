@@ -1,4 +1,4 @@
-package main.java.homeTasks.taskIO.file;
+package homeTasks.taskIO.file;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package main.java.homeTasks.taskIO.serializable;
+package homeTasks.taskIO.serializable;
 
 import java.io.*;
 
@@ -43,7 +43,5 @@ public class Runner {
 
         System.out.println("After: \n" + catOne);
         System.out.println(catTwo);
-
-
     }
 }

@@ -1,4 +1,4 @@
-package main.java.homeTasks.taskIO.serializable;
+package homeTasks.taskIO.serializable;
 
 import java.io.Externalizable;
 import java.io.IOException;
@@ -82,7 +82,6 @@ public class CatExternalize implements Externalizable {
         out.writeObject(this.getBreed());
         out.writeObject(this.getTail());
         out.writeObject(this.getAge());
-
     }
 
     @Override
@@ -92,6 +91,5 @@ public class CatExternalize implements Externalizable {
         breed = (String) in.readObject();
         tail = (int) in.readObject();
         age = (int) in.readObject();
-
     }
 }
