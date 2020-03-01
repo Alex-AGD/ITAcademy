@@ -1,11 +1,10 @@
-package main.java.homeTasks.task33;
+package homeTasks.task33;
 
 import java.io.File;
-import java.io.IOException;
 import java.util.Objects;
 
 public class Runner {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
         File dir = new File("D:\\project\\ItAcademy\\src\\main\\java\\workHome\\streamapi_lamda");
         if (dir.isDirectory()) {
@@ -15,7 +14,9 @@ public class Runner {
                     System.out.println(item.getName() + "  \t folder");
                 } else {
                     System.out.println(item.getName() + "\t file");
-                } }
-        } }
+                }
+            }
+        }
+    }
 }
 
