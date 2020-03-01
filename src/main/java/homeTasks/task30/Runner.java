@@ -8,6 +8,10 @@ import java.io.InputStreamReader;
 public class Runner {
 
     public static void main(String[] args) throws IOException {
+        File file = new File("src/main/resources/example.txt");
+        FileInputStream fileStream = new FileInputStream(file);
+        InputStreamReader input = new InputStreamReader(fileStream);
+        BufferedReader reader = new BufferedReader(input);
 
         BufferedReader reader = new BufferedReader(
                 new InputStreamReader(
