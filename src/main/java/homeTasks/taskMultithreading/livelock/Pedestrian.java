@@ -1,4 +1,4 @@
-package main.java.homeTasks.taskMultithreading.livelock;
+package homeTasks.taskMultithreading.livelock;
 
 public class Pedestrian extends Thread {
     private Object l;
@@ -14,18 +14,17 @@ public class Pedestrian extends Thread {
         } else {
             current = r;
         }
-
     }
 
     void setOther(Pedestrian otherP) {
         other = otherP;
     }
 
-    Object getDirection() {
+    private Object getDirection() {
         return current;
     }
 
-    Object getOppositeDirection() {
+    private Object getOppositeDirection() {
         if (current.equals(l)) {
             return r;
         } else {
@@ -33,7 +32,7 @@ public class Pedestrian extends Thread {
         }
     }
 
-    void switchDirection() throws InterruptedException {
+    private void switchDirection() throws InterruptedException {
         Thread.sleep(150);
         current = getOppositeDirection();
         System.out.println(Thread.currentThread().getName() + " is stepping aside.");
@@ -44,7 +43,7 @@ public class Pedestrian extends Thread {
             try {
                 switchDirection();
                 Thread.sleep(100);
-            } catch (InterruptedException e) {
+            } catch (InterruptedException ignored) {
             }
         }
     }

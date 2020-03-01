@@ -1,9 +1,7 @@
-package main.java.homeTasks.taskMultithreading.livelock;
+package homeTasks.taskMultithreading.livelock;
 
 public class LiveLock {
     public static void main(String[] args) {
-
-
         Object left = new Object();
         Object right = new Object();
         Pedestrian one = new Pedestrian(left, right, 1); //one's left is one's left

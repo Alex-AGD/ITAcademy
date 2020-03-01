@@ -1,10 +1,10 @@
-package main.java.homeTasks.taskMultithreading.starvation;
+package homeTasks.taskMultithreading.starvation;
 
 import javax.swing.*;
 import java.awt.*;
 
 public class StarvationDemo {
-    private static Object sharedObj = new Object();
+    private static final Object sharedObj = new Object();
 
     public static void main(String[] args) {
 
@@ -21,7 +21,7 @@ public class StarvationDemo {
         frame.setVisible(true);
     }
 
-    private static JFrame createFrame () {
+    private static JFrame createFrame() {
         JFrame frame = new JFrame("Starvation Demo");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(new Dimension(300, 200));
@@ -31,18 +31,18 @@ public class StarvationDemo {
     private static class ProgressThread extends Thread {
         JProgressBar progressBar;
 
-        ProgressThread () {
+        ProgressThread() {
             progressBar = new JProgressBar();
             progressBar.setString(this.getName());
             progressBar.setStringPainted(true);
         }
 
-        JComponent getProgressComponent () {
+        JComponent getProgressComponent() {
             return progressBar;
         }
 
         @Override
-        public void run () {
+        public void run() {
 
             int c = 0;
             while (true) {

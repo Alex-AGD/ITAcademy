@@ -1,4 +1,4 @@
-package main.java.homeTasks.taskMultithreading.deadlock;
+package homeTasks.taskMultithreading.deadlock;
 
 public class Friend {
     private final String name;
@@ -18,7 +18,7 @@ public class Friend {
         bower.bowBack(this);
     }
 
-    public synchronized void bowBack(Friend bower) {
+    private synchronized void bowBack(Friend bower) {
         System.out.format("%s: %s"
                         + " has bowed back to me!%n",
                 this.name, bower.getName());
