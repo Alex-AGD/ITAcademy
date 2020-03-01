@@ -1,4 +1,4 @@
-package main.java.homeTasks.task31;
+package homeTasks.task31;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 public class Runner {
-    public static void main(String[] args) throws IOException, ClassNotFoundException {
+    public static void main(String[] args) throws IOException {
 
         BufferedReader reader = new BufferedReader(
                 new InputStreamReader(
@@ -18,7 +18,6 @@ public class Runner {
 
         String str;
         List<Integer> ints = new ArrayList<>();
-
 
         while ((str = reader.readLine()) != null) {
             Pattern pattern = Pattern.compile("[0-9]");
