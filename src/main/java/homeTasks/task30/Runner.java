@@ -1,12 +1,10 @@
-package main.java.homeTasks.task30;
+package homeTasks.task30;
 
 import java.io.*;
 
 public class Runner {
 
-
     public static void main(String[] args) throws IOException {
-
         File file = new File("src/main/resources/example.txt");
         FileInputStream fileStream = new FileInputStream(file);
         InputStreamReader input = new InputStreamReader(fileStream);
