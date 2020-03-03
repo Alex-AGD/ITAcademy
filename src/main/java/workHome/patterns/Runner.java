@@ -1,4 +1,4 @@
-package main.java.workHome;
+package workHome.patterns;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

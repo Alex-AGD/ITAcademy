@@ -1,4 +1,4 @@
-package main.java.homeTasks.taskOperations;
+package homeTasks.taskOperations;
 
 public class Operations {
 

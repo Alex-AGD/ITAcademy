@@ -1,4 +1,4 @@
-package main.java.homeTasks.taskSortArray;
+package homeTasks.taskSortArray;
 
 public class SortArray {
 

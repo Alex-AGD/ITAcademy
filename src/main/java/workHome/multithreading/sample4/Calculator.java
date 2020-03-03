@@ -1,4 +1,4 @@
-package main.java.workHome.multithreading.sample4;
+package workHome.multithreading.sample4;
 
 import java.math.BigInteger;
 import java.security.InvalidParameterException;

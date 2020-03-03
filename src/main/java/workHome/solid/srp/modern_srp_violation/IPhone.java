@@ -1,4 +1,4 @@
-package main.java.workHome.solid.srp.modern_srp_violation;
+package workHome.solid.srp.modern_srp_violation;
 
 public interface IPhone {
 

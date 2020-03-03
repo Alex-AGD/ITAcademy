@@ -1,4 +1,4 @@
-package main.java.workHome.solid.srp.modern_srp_solution;
+package workHome.solid.srp.modern_srp_solution;
 
 public class ConnectionManagerImplementation implements IConnectionManager{
 

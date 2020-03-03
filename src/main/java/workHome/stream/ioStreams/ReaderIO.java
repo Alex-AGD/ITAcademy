@@ -1,4 +1,4 @@
-package main.java.workHome.stream.ioStreams;
+package workHome.stream.ioStreams;
 
 
 public class ReaderIO {

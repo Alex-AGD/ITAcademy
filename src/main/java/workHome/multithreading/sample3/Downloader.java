@@ -1,4 +1,4 @@
-package main.java.workHome.multithreading.sample3;
+package workHome.multithreading.sample3;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

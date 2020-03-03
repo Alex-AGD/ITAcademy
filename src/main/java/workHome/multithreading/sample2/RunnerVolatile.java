@@ -1,4 +1,4 @@
-package main.java.workHome.multithreading.sample2;
+package workHome.multithreading.sample2;
 
 public class RunnerVolatile {
     volatile static int i = 0; // volatile не кеширует,а пишет непсоредственно в память

@@ -1,4 +1,4 @@
-package main.java.workHome.solid.srp.employe_architecture;
+package workHome.solid.srp.employe_architecture;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

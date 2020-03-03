@@ -1,4 +1,4 @@
-package main.java.homeTasks.taskStream.Interface;
+package homeTasks.taskStream.Interface;
 
 @FunctionalInterface
 public interface MyFyncInt<T> {

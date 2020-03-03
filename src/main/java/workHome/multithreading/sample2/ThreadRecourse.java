@@ -1,4 +1,4 @@
-package main.java.workHome.multithreading.sample2;
+package workHome.multithreading.sample2;
 
 public class ThreadRecourse extends Thread {
 

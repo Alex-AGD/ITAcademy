@@ -1,4 +1,4 @@
-package main.java.homeTasks.taskStream.comparat_comparing;
+package homeTasks.taskStream.comparat_comparing;
 
 public class Human implements Comparable<Human> {
     private String name;

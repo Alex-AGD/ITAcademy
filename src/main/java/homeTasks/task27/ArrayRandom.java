@@ -1,4 +1,4 @@
-package main.java.homeTasks.task27;
+package homeTasks.task27;
 
 import java.util.ArrayList;
 import java.util.HashSet;

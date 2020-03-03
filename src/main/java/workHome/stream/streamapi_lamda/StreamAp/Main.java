@@ -1,4 +1,4 @@
-package main.java.workHome.stream.streamapi_lamda.StreamAp;
+package workHome.stream.streamapi_lamda.StreamAp;
 
 import java.util.OptionalInt;
 import java.util.stream.IntStream;

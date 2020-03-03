@@ -1,4 +1,4 @@
-package main.java.homeTasks.task22;
+package homeTasks.task22;
 
 import java.util.Objects;
 

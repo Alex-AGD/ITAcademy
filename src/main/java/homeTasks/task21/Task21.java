@@ -1,4 +1,4 @@
-package main.java.homeTasks.task21;
+package homeTasks.task21;
 
 public class Task21 {
     public static void main(String[] args) {

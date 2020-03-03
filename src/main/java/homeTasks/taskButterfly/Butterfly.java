@@ -1,4 +1,4 @@
-package main.java.homeTasks.taskButterfly;
+package homeTasks.taskButterfly;
 
 //
 public class Butterfly {

@@ -1,4 +1,4 @@
-package main.java.homeTasks.taskFibonacci;
+package homeTasks.taskFibonacci;
 
 public class FibonacciExp2 {
 

@@ -1,4 +1,4 @@
-package main.java.homeTasks.task25;
+package homeTasks.task25;
 
 public abstract class Clients {
     private String name;

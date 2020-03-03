@@ -1,4 +1,4 @@
-package main.java.workHome.homeWorkBitchan;
+package workHome.homeWorkBitchan;
 
 public class Runner {
     public static void main(String[] args) {

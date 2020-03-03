@@ -1,4 +1,4 @@
-package main.java.workHome.polimorf_incasul_classroom;
+package workHome.polimorf_incasul_classroom;
 
 public class Penguin extends Bird {
     public Penguin(String name) {

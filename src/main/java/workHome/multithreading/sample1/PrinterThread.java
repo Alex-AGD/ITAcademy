@@ -1,4 +1,4 @@
-package main.java.workHome.multithreading.sample1;
+package workHome.multithreading.sample1;
 
 public class PrinterThread extends Thread implements Factorial {
     private String name;

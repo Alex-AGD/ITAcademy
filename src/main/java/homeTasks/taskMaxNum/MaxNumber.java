@@ -1,4 +1,4 @@
-package main.java.homeTasks.taskMaxNum;
+package homeTasks.taskMaxNum;
 
 public class MaxNumber {
     public static void main(String[] args) {

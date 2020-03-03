@@ -1,4 +1,4 @@
-package main.java.homeTasks.jvmExeption.stackExept;
+package homeTasks.jvmExeption.stackExept;
 
 import java.util.HashMap;
 import java.util.Map;

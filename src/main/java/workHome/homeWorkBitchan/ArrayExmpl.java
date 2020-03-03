@@ -1,4 +1,4 @@
-package main.java.workHome.homeWorkBitchan;
+package workHome.homeWorkBitchan;
 
 import java.util.Arrays;
 import java.util.Scanner;

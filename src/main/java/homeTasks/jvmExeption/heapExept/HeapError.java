@@ -1,4 +1,4 @@
-package main.java.homeTasks.jvmExeption.heapExept;
+package homeTasks.jvmExeption.heapExept;
 
 import java.util.Arrays;
 

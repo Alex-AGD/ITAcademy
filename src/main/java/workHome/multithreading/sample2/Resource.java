@@ -1,4 +1,4 @@
-package main.java.workHome.multithreading.sample2;
+package workHome.multithreading.sample2;
 
 public class Resource {
     static int i; //нельзя исполз статич переменную на уровне обьекта

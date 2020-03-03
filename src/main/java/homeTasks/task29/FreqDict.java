@@ -1,4 +1,4 @@
-package main.java.homeTasks.task29;
+package homeTasks.task29;
 
 import java.util.ArrayList;
 import java.util.Arrays;

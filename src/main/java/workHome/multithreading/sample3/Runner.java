@@ -1,4 +1,4 @@
-package main.java.workHome.multithreading.sample3;
+package workHome.multithreading.sample3;
 
 public class Runner {
     static final String URL = " https://docviewer.yandex.by/view/17237602/?*=mfcKg%2BgRRq3NZczaIlerl96RTi97InVybCI6Inlh" +

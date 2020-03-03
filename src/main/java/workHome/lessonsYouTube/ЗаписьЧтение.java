@@ -1,4 +1,4 @@
-package main.java.lessonsYouTube;
+package workHome.lessonsYouTube;
 
 import java.io.*;
 import java.util.Scanner;

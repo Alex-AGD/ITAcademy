@@ -1,7 +1,7 @@
-package main.java.workHome.multithreading.sample1;
+package workHome.multithreading.sample1;
 
-import main.java.workHome.multithreading.sample2.Resource;
-import main.java.workHome.multithreading.sample2.ThreadRecourse;
+import workHome.multithreading.sample2.Resource;
+import workHome.multithreading.sample2.ThreadRecourse;
 
 import java.util.ArrayList;
 import java.util.LinkedHashSet;

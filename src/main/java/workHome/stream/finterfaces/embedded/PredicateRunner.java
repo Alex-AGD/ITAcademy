@@ -1,4 +1,4 @@
-package main.java.workHome.stream.finterfaces.embedded;
+package workHome.stream.finterfaces.embedded;
 
 import java.util.function.Predicate;
 
