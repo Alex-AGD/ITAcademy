@@ -18,7 +18,7 @@ public class RunnerOperatoins {
 
         {
             Operations printMoreZero = new Operations();
-            printMoreZero.printMoreZero();
+            printMoreZero.printMoreZero(4);
             System.out.println();
         }
         //Task 4

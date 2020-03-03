@@ -25,15 +25,15 @@ public class Operations {
 
 
     //Task 3
-    void printMoreZero() {
-        if (2 > 0) {
-            System.out.println("number > 0");
+    void printMoreZero(int x) {
+        if (x > 0) {
+            System.out.println("number: " + x + " > 0");
         }
-        if (2 < 0) {
-            System.out.println("number < 0");
+        if (x < 0) {
+            System.out.println("number: " + x + " < 0");
         }
-        if (2 == 0) {
-            System.out.println("number = 0");
+        if (x == 0) {
+            System.out.println("number: " + x + " = 0");
         }
     }
 
