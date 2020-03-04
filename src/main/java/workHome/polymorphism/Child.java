@@ -1,4 +1,4 @@
-package workHome.полиморфизм_имплемент;
+package workHome.polymorphism;
 
 public abstract class Child extends Human {
     private String name;

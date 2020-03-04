@@ -44,12 +44,16 @@ public class Atm {
     }
 
     public void addMoney(String type, int money) {
-        if (MONEY20.equals(type)) {
-            money20 = getMoney20() + money;
-        } else if (MONEY50.equals(type)) {
-            money50 = getMoney50() + money;
-        } else if (MONEY100.equals(type)) {
-            money100 = getMoney100() + money;
+        switch (type) {
+            case (MONEY20):
+                money20 = getMoney20() + money;
+                break;
+            case (MONEY50):
+                money50 = getMoney50() + money;
+                break;
+            case (MONEY100):
+                money100 = getMoney100() + money;
+                break;
         }
     }
 
@@ -87,23 +91,26 @@ public class Atm {
 public void rett(){
     Scanner in = new Scanner(System.in);
     System.out.println("Do  you want add money to an ATM? (y/n) ?");
-    String s = in.nextLine();
-    if ("y".equals(s)) {
-        System.out.println("Enter the amount of money with a value of 20 to the ATM: ");
-        addMoney(MONEY20, in.nextInt());
-        System.out.println("Enter the amount of money with a value of 50 to the ATM: ");
-        addMoney(MONEY50, in.nextInt());
-        System.out.println("Enter the amount of money with a value of 100 to the ATM: ");
-        addMoney(MONEY100, in.nextInt());
-        System.out.println("Money added! Thank you.");
-        System.out.println(toString());
-        System.out.println("Please enter amount you want to receive: ");
-        System.out.println(getMoney(in.nextInt()));
-        System.out.println(toString());
-    } else if ("n".equals(s)) {
-        System.out.println("Good bye!");
-    } else {
-        System.out.println("Incorrect input please choose (y/n)");
-        rett();
-    }
+    switch (in.nextLine()) {
+        case "y":
+            System.out.println("Enter the amount of money with a value of 20 to the ATM: ");
+            addMoney(MONEY20, in.nextInt());
+            System.out.println("Enter the amount of money with a value of 50 to the ATM: ");
+            addMoney(MONEY50, in.nextInt());
+            System.out.println("Enter the amount of money with a value of 100 to the ATM: ");
+            addMoney(MONEY100, in.nextInt());
+            System.out.println("Money added! Thank you.");
+            System.out.println(toString());
+            System.out.println("Please enter amount you want to receive: ");
+            System.out.println(getMoney(in.nextInt()));
+            System.out.println(toString());
+
+            break;
+        case "n":
+            System.out.println("Good bye!");
+            break;
+        default:
+            System.out.println("Incorrect input please choose (y/n)");
+            rett();
+}
 }}

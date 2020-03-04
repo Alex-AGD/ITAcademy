@@ -1,4 +1,4 @@
-package workHome.полиморфизм_имплемент;
+package workHome.polymorphism;
 
 public interface HairColor {
     void EyesColor(String hairColor);

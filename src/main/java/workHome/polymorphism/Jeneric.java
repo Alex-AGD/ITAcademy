@@ -1,4 +1,4 @@
-package workHome.полиморфизм_имплемент;
+package workHome.polymorphism;
 
 public class Jeneric<T, S, G> {
     private T name;

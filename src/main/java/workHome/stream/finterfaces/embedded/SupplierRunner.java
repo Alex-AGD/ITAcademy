@@ -22,8 +22,8 @@ public class SupplierRunner {
         User user1 = userFactory.get();
         User user2 = userFactory.get();
 
-        System.out.println("Имя user1: " + user1.getName());
-        System.out.println("Имя user2: " + user2.getName());
+        System.out.println("name user1: " + user1.getName());
+        System.out.println("name user2: " + user2.getName());
     }
 }
 

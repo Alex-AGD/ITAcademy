@@ -1,4 +1,4 @@
-package workHome.полиморфизм_имплемент;
+package workHome.polymorphism;
 
 public class SportsMan extends Child {
 

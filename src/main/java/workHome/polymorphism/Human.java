@@ -1,4 +1,4 @@
-package workHome.полиморфизм_имплемент;
+package workHome.polymorphism;
 
 public abstract class Human implements EyesColor, HairColor {
     private String Race;
