@@ -1,10 +1,6 @@
 package homeTasks.taskStream.comparat_comparing;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
-import java.util.stream.Collectors;
+import java.util.*;
 
 public class Runner {
     public static void main(String[] args) {
@@ -34,8 +30,7 @@ public class Runner {
             System.out.println("------------------------");
 
             persons.stream().sorted(byAge.thenComparing(byName)).forEach(System.out::println);
-            //noinspection unchecked
-            List<Person> names = (List<Person>) persons.stream().collect(Collectors.toSet());
+
 
 
             //Not Watch This()it's for me.

@@ -9,12 +9,16 @@ public class Planet {
     int numSputnik;
 
 
-    public Planet() {
+    public Planet(String name, boolean atmosphere, float rotationPeriod, double speedPlanet, int numSputnik) {
         this.name = name;
         this.atmosphere = atmosphere;
-        this.numSputnik = numSputnik;
+        this.rotationPeriod = rotationPeriod;
         this.speedPlanet = speedPlanet;
-        this.rotationPeriod = rotationPeriod;  //h
+        this.numSputnik = numSputnik;
+    }
+
+    public Planet() {
+        //h
 
     }
 
