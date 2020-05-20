@@ -1,8 +1,9 @@
 package homeTasks.task23;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Atm {
+public class Atm extends Thread {
     private int money20;
     private int money50;
     private int money100;
@@ -16,6 +17,10 @@ public class Atm {
         this.money20 = money20;
         this.money50 = money50;
         this.money100 = money100;
+    }
+
+    public Atm() {
+
     }
 
 
@@ -88,7 +93,11 @@ public class Atm {
         }
 
     }
-public void rett(){
+public void rett() throws InterruptedException {
+        try {
+            Thread thread = new Thread();
+            thread.start();
+
     Scanner in = new Scanner(System.in);
     System.out.println("Do  you want add money to an ATM? (y/n) ?");
     switch (in.nextLine()) {
@@ -112,5 +121,14 @@ public void rett(){
         default:
             System.out.println("Incorrect input please choose (y/n)");
             rett();
+    }
+
 }
-}}
+        catch (InputMismatchException pidor){
+    System.out.println("Вы ввели некорректные данные");
+    Thread.sleep(1000);
+            rett();
+
+    }
+
+    }}
